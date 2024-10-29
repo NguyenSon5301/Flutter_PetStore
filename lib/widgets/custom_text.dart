@@ -13,12 +13,5 @@ class CustomText extends StatelessWidget {
       required this.color,
       required this.weight})
       : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(
-      text,
-      style: TextStyle(fontSize: size, color: color, fontWeight: weight),
-    );
-  }
+test2
 }
